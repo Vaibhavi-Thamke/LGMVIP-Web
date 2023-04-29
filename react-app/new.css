@@ -1,0 +1,70 @@
+body{
+    display:block;
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+    background-image: url("img/blueimages.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    font-style: italic;
+    height:600px;
+    left:0px;
+   
+}
+.header
+ {
+    height:110px;
+    width:100%; 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom:3px solid black;
+    padding-top: 9px;
+    font-size: 70px;
+    color:black;
+}
+.btn{
+    position:absolute;
+    top:15px;
+    right:20px;
+}
+button{
+    color:black;
+    height:45px;
+    width:100px;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+    background-image: linear-gradient(rgb(76, 117, 250),white);
+    border-radius: 30px;
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:900px;
+}
+table{
+    color:red;
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:lightgray;
+
+}
+img{
+    clip-path: circle();
+}
+Foo
